@@ -1,0 +1,65 @@
+/* ===== Google Font ===== */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* ===== CSS Reset ===== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Base Styles ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-size: var(--font-md);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Media ===== */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ===== Links ===== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== Lists ===== */
+ul,
+ol {
+  list-style: none;
+}
+
+/* ===== Buttons ===== */
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* ===== Inputs ===== */
+input,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+/* ===== Container ===== */
+.container {
+  width: min(90%, 1200px);
+  margin: 0 auto;
+}
