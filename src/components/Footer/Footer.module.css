@@ -1,0 +1,114 @@
+.footer {
+  width: 100%;
+
+  background-color: #f4f8fc;
+
+  border: 1px solid #dbe5ef;
+  border-radius: 0 0 14px 14px;
+
+  color: #111827;
+
+  margin-top: 40px;
+}
+
+/* Main footer content */
+
+.footerContent {
+  max-width: 1280px;
+
+  margin: 0 auto;
+  padding: 28px 36px 24px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 40px;
+}
+
+/* Footer columns */
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+
+  gap: 7px;
+}
+
+.footerColumn h3 {
+  margin: 0 0 4px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+.footerColumn a {
+  width: fit-content;
+
+  color: #374151;
+  text-decoration: none;
+
+  font-size: 12px;
+
+  transition: color 0.2s ease;
+}
+
+.footerColumn a:hover {
+  color: #2563eb;
+}
+
+/* Social icons */
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  margin-top: 3px;
+}
+
+.socialLinks a {
+  width: 22px;
+  height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #6b7280;
+
+  border-radius: 50%;
+
+  transition: all 0.2s ease;
+}
+
+.socialLinks a svg {
+  width: 16px;
+  height: 16px;
+}
+
+.socialLinks a:hover {
+  color: #2563eb;
+  background-color: #e5efff;
+}
+
+/* Bottom section */
+
+.footerBottom {
+  max-width: 1210px;
+
+  margin: 0 auto;
+
+  padding: 14px 0;
+
+  border-top: 1px solid #dbe3ec;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 10px;
+  color: #4b5563;
+}
